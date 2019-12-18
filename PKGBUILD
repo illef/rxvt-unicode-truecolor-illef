@@ -6,7 +6,7 @@
 # Contributor: dibblethewrecker dibblethewrecker.at.jiwe.dot.org
 
 _pkgname=rxvt-unicode
-pkgname=rxvt-unicode-truecolor
+pkgname=rxvt-unicode-truecolor-illef
 pkgver=9.22
 pkgrel=7
 pkgdesc='Unicode enabled rxvt-clone terminal emulator (urxvt) with true color patch (24bit colors support). That enables vim 24-bit true color colorshemes'
@@ -22,7 +22,7 @@ source=(http://dist.schmorp.de/rxvt-unicode/${_pkgname}-${pkgver}.tar.bz2
         urxvt.desktop
         urxvtc.desktop
         urxvt-tabbed.desktop
-        https://gist.githubusercontent.com/dan-santana/63271adf12171e0fc0bc/raw/70c6343d1c0b3bca0aba4f587ed501e6cbd98d00/24-bit-color.patch
+        https://gist.githubusercontent.com/illef/98955ba6a50b1462d30d5638abe45f58/raw/0f0916cdb8f21afe0f284da79557df821d5a8559/24-bit-color.patch
        )
 sha256sums=('e94628e9bcfa0adb1115d83649f898d6edb4baced44f5d5b769c2eeb8b95addd'
             '5f9c435d559371216d1c5b49c6ec44bfdb786b12d925d543c286b0764dea0319'
